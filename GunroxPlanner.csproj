@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources\Images\SkillImages\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\Images\SkillImages\assault_rifle.png" />
+      <Resource Include="Resources\Images\SkillImages\assault_rifle.png" />
+      <None Remove="Resources\Images\SkillImages\grenade.png" />
+      <Resource Include="Resources\Images\SkillImages\grenade.png" />
+      <None Remove="Resources\Images\SkillImages\healing.png" />
+      <Resource Include="Resources\Images\SkillImages\healing.png" />
+      <None Remove="Resources\Images\SkillImages\heavy_macine.png" />
+      <Resource Include="Resources\Images\SkillImages\heavy_macine.png" />
+      <None Remove="Resources\Images\SkillImages\melee.png" />
+      <Resource Include="Resources\Images\SkillImages\melee.png" />
+      <None Remove="Resources\Images\SkillImages\minus.png" />
+      <Resource Include="Resources\Images\SkillImages\minus.png" />
+      <None Remove="Resources\Images\SkillImages\pistol.png" />
+      <Resource Include="Resources\Images\SkillImages\pistol.png" />
+      <None Remove="Resources\Images\SkillImages\plus.png" />
+      <Resource Include="Resources\Images\SkillImages\plus.png" />
+      <None Remove="Resources\Images\SkillImages\rocket_launcher.png" />
+      <Resource Include="Resources\Images\SkillImages\rocket_launcher.png" />
+      <None Remove="Resources\Images\SkillImages\shoutgun.png" />
+      <Resource Include="Resources\Images\SkillImages\shoutgun.png" />
+      <None Remove="Resources\Images\SkillImages\skill_btn_down.png" />
+      <Resource Include="Resources\Images\SkillImages\skill_btn_down.png" />
+      <None Remove="Resources\Images\SkillImages\skill_btn_normal.png" />
+      <Resource Include="Resources\Images\SkillImages\skill_btn_normal.png" />
+      <None Remove="Resources\Images\SkillImages\skill_btn_over.png" />
+      <Resource Include="Resources\Images\SkillImages\skill_btn_over.png" />
+      <None Remove="Resources\Images\SkillImages\sniper.png" />
+      <Resource Include="Resources\Images\SkillImages\sniper.png" />
+      <None Remove="Resources\Images\SkillImages\star.png" />
+      <Resource Include="Resources\Images\SkillImages\star.png" />
+      <None Remove="Resources\Images\SkillImages\submachine_gun.png" />
+      <Resource Include="Resources\Images\SkillImages\submachine_gun.png" />
+      <None Remove="Resources\Images\SkillImages\trap.png" />
+      <Resource Include="Resources\Images\SkillImages\trap.png" />
+    </ItemGroup>
+
+</Project>
