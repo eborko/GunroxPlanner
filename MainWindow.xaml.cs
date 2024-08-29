@@ -21,7 +21,7 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void OnMouseEnterButton(object sender, MouseEventArgs e)
+    private void PlusMinusButton_OnMouseEnter(object sender, MouseEventArgs e)
     {
         Button button = (Button)sender;
         Image image = (Image)button.Template.FindName("BtnImage", button);
@@ -30,7 +30,7 @@ public partial class MainWindow : Window
         image.Source = overImage;
     }
 
-    private void OnMouseLeaveButton(object sender, MouseEventArgs e)
+    private void PlusMinusButton_OnMouseLeave(object sender, MouseEventArgs e)
     {
         Button button = (Button)sender;
         Image image = (Image)button.Template.FindName("BtnImage", button);
@@ -39,7 +39,7 @@ public partial class MainWindow : Window
         image.Source = normalImage;
     }
 
-    private void OnMouseLeftDownButton(object sender, MouseButtonEventArgs e)
+    private void PlusMinusButton_OnMouseDown(object sender, MouseButtonEventArgs e)
     {
         Button button = (Button)sender;
         Image image = (Image)button.Template.FindName("BtnImage", button);
@@ -48,12 +48,84 @@ public partial class MainWindow : Window
         image.Source = downImage;
     }
 
-    private void OnMouseLeftUpButton(object sender, MouseButtonEventArgs e)
+    private void PlusMinusButton_OnMouseUp(object sender, MouseButtonEventArgs e)
     {
         Button button = (Button)sender;
         Image image = (Image)button.Template.FindName("BtnImage", button);
         BitmapImage overImage =
             new BitmapImage(new Uri("Resources/Images/SkillImages/skill_btn_over.png", UriKind.Relative));
         image.Source = overImage;
+    }
+    
+    private void LArrow_OnMouseEnter(object sender, MouseEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("LeftArrowImage", button);
+        BitmapImage overImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/left_arrow_over.png", UriKind.Relative));
+        image.Source = overImage;
+    }
+
+    private void LArrow_OnMouseLeave(object sender, MouseEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("LeftArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/left_arrow_normal.png", UriKind.Relative));
+        image.Source = normalImage;
+    }
+
+    private void LArrow_OnMouseDown(object sender, MouseButtonEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("LeftArrowImage", button);
+        BitmapImage downImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/left_arrow_down.png", UriKind.Relative));
+        image.Source = downImage;
+    }
+
+    private void LArrow_OnMouseUp(object sender, MouseButtonEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("LeftArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/left_arrow_over.png", UriKind.Relative));
+        image.Source = normalImage;
+    }
+
+    private void RArrow_OnMouseEnter(object sender, MouseEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("RightArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/right_arrow_over.png", UriKind.Relative));
+        image.Source = normalImage;
+    }
+
+    private void RArrow_OnMouseLeave(object sender, MouseEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("RightArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/right_arrow_normal.png", UriKind.Relative));
+        image.Source = normalImage;
+    }
+
+    private void RArrow_OnMouseDown(object sender, MouseButtonEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("RightArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/right_arrow_down.png", UriKind.Relative));
+        image.Source = normalImage;
+    }
+
+    private void RArrow_OnMouseUp(object sender, MouseButtonEventArgs e)
+    {
+        Button button = (Button)sender;
+        Image image = (Image)button.Template.FindName("RightArrowImage", button);
+        BitmapImage normalImage =
+            new BitmapImage(new Uri("Resources/Images/SkillImages/right_arrow_over.png", UriKind.Relative));
+        image.Source = normalImage;
     }
 }

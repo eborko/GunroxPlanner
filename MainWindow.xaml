@@ -7,6 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800">
     <Window.Resources>
+        <Style TargetType="Button" x:Key="LeftArrow">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Image x:Name="LeftArrowImage" Source="Resources/Images/SkillImages/left_arrow_normal.png"></Image>
+                            <ContentPresenter></ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <EventSetter Event="MouseEnter" Handler="LArrow_OnMouseEnter"></EventSetter>
+            <EventSetter Event="MouseLeave" Handler="LArrow_OnMouseLeave"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="LArrow_OnMouseDown"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="LArrow_OnMouseUp"></EventSetter>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="RightArrow">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Image x:Name="RightArrowImage" Source="Resources/Images/SkillImages/right_arrow_normal.png"></Image>
+                            <ContentPresenter></ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <EventSetter Event="MouseEnter" Handler="RArrow_OnMouseEnter"></EventSetter>
+            <EventSetter Event="MouseLeave" Handler="RArrow_OnMouseLeave"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="RArrow_OnMouseDown"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="RArrow_OnMouseUp"></EventSetter>
+        </Style>
+        
         <Style TargetType="Button" x:Key="MinusButton">
             <Setter Property="Template">
                 <Setter.Value>
@@ -19,10 +53,10 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <EventSetter Event="MouseEnter" Handler="OnMouseEnterButton"/>
-            <EventSetter Event="MouseLeave" Handler="OnMouseLeaveButton"></EventSetter>
-            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="OnMouseLeftDownButton"></EventSetter>
-            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="OnMouseLeftUpButton"></EventSetter>
+            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter"/>
+            <EventSetter Event="MouseLeave" Handler="PlusMinusButton_OnMouseLeave"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="PlusMinusButton_OnMouseDown"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="PlusMinusButton_OnMouseUp"></EventSetter>
         </Style>
         
         <Style TargetType="Button" x:Key="PlusButton">
@@ -37,20 +71,24 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <EventSetter Event="MouseEnter" Handler="OnMouseEnterButton"/>
-            <EventSetter Event="MouseLeave" Handler="OnMouseLeaveButton"></EventSetter>
-            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="OnMouseLeftDownButton"></EventSetter>
-            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="OnMouseLeftUpButton"></EventSetter>
+            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter"/>
+            <EventSetter Event="MouseLeave" Handler="PlusMinusButton_OnMouseLeave"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="PlusMinusButton_OnMouseDown"></EventSetter>
+            <EventSetter Event="PreviewMouseLeftButtonUp" Handler="PlusMinusButton_OnMouseUp"></EventSetter>
         </Style>
     </Window.Resources>
     <StackPanel Background="#333">
-        <StackPanel Height="60" Orientation="Horizontal">
+        <StackPanel Height="70" Orientation="Horizontal">
             <Grid>
                 <Image Source="Resources/Images/SkillImages/star.png"></Image>
-                <Ellipse Width="20" Height="20" Fill="Black"></Ellipse>
-                <TextBlock x:Name="TxtLevel" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold">50</TextBlock>
+                <Ellipse Width="25" Height="25" Fill="Black" Opacity="0.8"></Ellipse>
+                <TextBlock x:Name="TxtSkills" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold">250</TextBlock>
             </Grid>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" FontWeight="Bold" Foreground="WhiteSmoke">Unit Skills:</TextBlock>
+            <TextBox Height="25" Width="30" Margin="0,0,5,0" TextAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16">50</TextBox>
+            <Button Style="{StaticResource LeftArrow}" Height="25" Width="20"></Button>
+            <Button Style="{StaticResource RightArrow}" Height="25" Width="20"></Button>
+            
+            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="50" FontWeight="Bold" Foreground="WhiteSmoke">Unit Skills:</TextBlock>
         </StackPanel>
         
         <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">

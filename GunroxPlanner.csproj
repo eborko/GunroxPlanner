@@ -47,6 +47,18 @@
       <Resource Include="Resources\Images\SkillImages\submachine_gun.png" />
       <None Remove="Resources\Images\SkillImages\trap.png" />
       <Resource Include="Resources\Images\SkillImages\trap.png" />
+      <None Remove="Resources\Images\SkillImages\left_arrow_normal.png" />
+      <Resource Include="Resources\Images\SkillImages\left_arrow_normal.png" />
+      <None Remove="Resources\Images\SkillImages\left_arrow_over.png" />
+      <Resource Include="Resources\Images\SkillImages\left_arrow_over.png" />
+      <None Remove="Resources\Images\SkillImages\right_arrow_down.png" />
+      <Resource Include="Resources\Images\SkillImages\right_arrow_down.png" />
+      <None Remove="Resources\Images\SkillImages\right_arrow_normal.png" />
+      <Resource Include="Resources\Images\SkillImages\right_arrow_normal.png" />
+      <None Remove="Resources\Images\SkillImages\right_arrow_over.png" />
+      <Resource Include="Resources\Images\SkillImages\right_arrow_over.png" />
+      <None Remove="Resources\Images\SkillImages\left_arrow_down.png" />
+      <Resource Include="Resources\Images\SkillImages\left_arrow_down.png" />
     </ItemGroup>
 
 </Project>
