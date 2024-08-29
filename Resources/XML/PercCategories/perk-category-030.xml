@@ -1,0 +1,148 @@
+<group>
+    <perc>
+        <id>1501</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_level>5</required_level>
+    </perc>
+
+    <perc>
+        <id>1502</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1501</required_perc>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>1503</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1502</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1504</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1503</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1505</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1504</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1506</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1505</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1507</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1506</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1508</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1507</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1509</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1508</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>1510</id>
+        <name>UnitFeatures.PistolMastery</name>
+        <icon>p_pistmast</icon>
+        <description></description>
+        <category>30</category>
+
+        <skill_pistol>2</skill_pistol>
+        <required_perc>1509</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>2201</id>
+        <name>UnitFeatures.RangeFighter</name>
+        <icon>p_rangef</icon>
+        <description>UnitFeatures.RangeFighter_d</description>
+        <category>30</category>
+
+        <required_level>15</required_level>
+        <required_perc>1510</required_perc>
+            <required_skill_pistol>48</required_skill_pistol>
+
+            <feature_distance_pistol>1</feature_distance_pistol>
+    </perc>
+
+    <perc>
+        <id>2601</id>
+        <name>UnitFeatures.LockNLoad</name>
+        <icon>p_lockload</icon>
+        <description>UnitFeatures.LockNLoad_d</description>
+        <category>30</category>
+
+        <required_level>10</required_level>
+        <required_perc>1505</required_perc>
+            <required_skill_pistol>28</required_skill_pistol>
+
+        <feature_switchweapon_ap>-1</feature_switchweapon_ap>
+    </perc>
+</group>

@@ -1,0 +1,159 @@
+<group>
+    <perc>
+        <id>601</id>
+        <name>UnitFeatures.DrExplosive</name>
+        <icon>p_drexpl</icon>
+        <description>UnitFeatures.DrExplosive_d</description>
+        <category>96</category>
+
+        <unlockskill>rocketlauncher</unlockskill>
+            <skill_rocketlauncher>1</skill_rocketlauncher>
+
+        <required_perc>301</required_perc>
+        <required_perc>402</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>610</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>601</required_perc>
+        <required_level>35</required_level>
+    </perc>
+    <perc>
+        <id>611</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>610</required_perc>
+        <required_level>36</required_level>
+    </perc>
+    <perc>
+        <id>612</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>611</required_perc>
+        <required_level>37</required_level>
+    </perc>
+    <perc>
+        <id>613</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>612</required_perc>
+        <required_level>38</required_level>
+    </perc>
+    <perc>
+        <id>614</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>613</required_perc>
+        <required_level>39</required_level>
+    </perc>
+    <perc>
+        <id>615</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>614</required_perc>
+        <required_level>40</required_level>
+    </perc>
+    <perc>
+        <id>616</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>615</required_perc>
+        <required_level>41</required_level>
+    </perc>
+    <perc>
+        <id>617</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>616</required_perc>
+        <required_level>42</required_level>
+    </perc>
+    <perc>
+        <id>618</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>617</required_perc>
+        <required_level>43</required_level>
+    </perc>
+    <perc>
+        <id>619</id>
+        <name>UnitFeatures.RocketMastery</name>
+        <icon>p_rpgmastery</icon>
+        <description></description>
+        <category>96</category>
+
+            <skill_rocketlauncher>2</skill_rocketlauncher>
+        <required_perc>618</required_perc>
+        <required_level>44</required_level>
+    </perc>
+
+
+    <perc>
+        <id>690</id>
+        <name>UnitFeatures.RMMassDistruct</name>
+        <icon>p_rpgmass</icon>
+        <description>UnitFeatures.RMMassDistruct_d</description>
+        <category>96</category>
+
+        <maxstuffweight>-20</maxstuffweight>
+        <feature_rpg_range>1</feature_rpg_range>
+
+        <required_level>40</required_level>
+        <required_perc>614</required_perc>
+        <required_skill_rocketlauncher>80</required_skill_rocketlauncher>
+    </perc>
+
+    <perc>
+        <id>691</id>
+        <name>UnitFeatures.RMDomination</name>
+        <icon>p_rpgdominate</icon>
+        <description>UnitFeatures.RMDomination_d</description>
+        <category>96</category>
+
+        <maxstuffweight>-20</maxstuffweight>
+        <feature_rpg_range>1</feature_rpg_range>
+
+        <required_level>45</required_level>
+        <required_perc>619</required_perc>
+        <required_skill_rocketlauncher>100</required_skill_rocketlauncher>
+    </perc>
+
+</group>

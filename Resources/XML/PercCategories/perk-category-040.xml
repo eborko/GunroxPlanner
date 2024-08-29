@@ -1,0 +1,150 @@
+<group>
+    <perc>
+        <id>1601</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_level>5</required_level>
+    </perc>
+
+    <perc>
+        <id>1602</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1601</required_perc>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>1603</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1602</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1604</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1603</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1605</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1604</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1606</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1605</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1607</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1606</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1608</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1607</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1609</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1608</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>1610</id>
+        <name>UnitFeatures.ShotgunMastery</name>
+        <icon>p_shotmast</icon>
+        <description></description>
+        <category>40</category>
+
+        <skill_shotgun>2</skill_shotgun>
+        <required_perc>1609</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>2501</id>
+        <name>UnitFeatures.GunRun</name>
+        <icon>p_gunrun</icon>
+        <description></description>
+        <category>40</category>
+
+        <apmove>1</apmove>
+
+        <required_level>10</required_level>
+        <required_perc>1605</required_perc>
+        <required_skill_shotgun>28</required_skill_shotgun>
+    </perc>
+
+    <perc>
+        <id>4001</id>
+        <name>UnitFeatures.Organized</name>
+        <icon>p_organized</icon>
+        <description></description>
+        <category>40</category>
+
+        <apcommon>1</apcommon>
+        <maxstuffweight>-10</maxstuffweight>
+
+        <required_level>15</required_level>
+        <required_perc>1610</required_perc>
+        <required_skill_shotgun>48</required_skill_shotgun>
+    </perc>
+
+</group>

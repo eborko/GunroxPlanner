@@ -1,0 +1,395 @@
+<group>
+    <perc>
+        <id>201</id>
+        <name>UnitFeatures.CriticalResistance</name>
+        <icon>p_rescrit</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_critical_power>0.10</resistance_critical_power>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>202</id>
+        <name>UnitFeatures.CriticalResistance</name>
+        <icon>p_rescrit</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_critical_power>0.10</resistance_critical_power>
+        <required_perc>201</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>203</id>
+        <name>UnitFeatures.CriticalResistance</name>
+        <icon>p_rescrit</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_critical_power>0.10</resistance_critical_power>
+        <required_perc>202</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>204</id>
+        <name>UnitFeatures.CriticalResistance</name>
+        <icon>p_rescrit</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_critical_power>0.10</resistance_critical_power>
+        <required_perc>203</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>205</id>
+        <name>UnitFeatures.CriticalResistance</name>
+        <icon>p_rescrit</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_critical_power>0.10</resistance_critical_power>
+        <required_perc>204</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+
+    <perc>
+        <id>251</id>
+        <name>UnitFeatures.SplashResistance</name>
+        <description>UnitFeatures.SplashResistance_d</description>
+        <icon>p_ressplash</icon>
+        <category>100</category>
+        <resistance_splash>0.10</resistance_splash>
+        <required_level>10</required_level>
+    </perc>
+    <perc>
+        <id>252</id>
+        <name>UnitFeatures.SplashResistance</name>
+        <description>UnitFeatures.SplashResistance_d</description>
+        <icon>p_ressplash</icon>
+        <category>100</category>
+        <resistance_splash>0.10</resistance_splash>
+        <required_level>20</required_level>
+        <required_perc>251</required_perc>
+    </perc>
+    <perc>
+        <id>253</id>
+        <name>UnitFeatures.SplashResistance</name>
+        <description>UnitFeatures.SplashResistance_d</description>
+        <icon>p_ressplash</icon>
+        <category>100</category>
+        <resistance_splash>0.10</resistance_splash>
+        <required_level>30</required_level>
+        <required_perc>252</required_perc>
+    </perc>
+    <perc>
+        <id>254</id>
+        <name>UnitFeatures.SplashResistance</name>
+        <description>UnitFeatures.SplashResistance_d</description>
+        <icon>p_ressplash</icon>
+        <category>100</category>
+        <resistance_splash>0.10</resistance_splash>
+        <required_level>40</required_level>
+        <required_perc>253</required_perc>
+   </perc>
+
+
+    <perc>
+        <id>301</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>302</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>301</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>303</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>302</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>304</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>303</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>305</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>304</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>306</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>305</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>307</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>306</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>308</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>307</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>309</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>308</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>310</id>
+        <name>UnitFeatures.DamageResistance</name>
+        <icon>p_resdamage</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_damage>0.01</resistance_damage>
+        <required_perc>309</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>901</id>
+        <name>UnitFeatures.PoisonResistance</name>
+        <icon>p_respoison</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_poison>0.10</resistance_poison>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>902</id>
+        <name>UnitFeatures.PoisonResistance</name>
+        <icon>p_respoison</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_poison>0.10</resistance_poison>
+        <required_perc>901</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>903</id>
+        <name>UnitFeatures.PoisonResistance</name>
+        <icon>p_respoison</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_poison>0.10</resistance_poison>
+        <required_perc>902</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>904</id>
+        <name>UnitFeatures.PoisonResistance</name>
+        <icon>p_respoison</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_poison>0.10</resistance_poison>
+        <required_perc>903</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1001</id>
+        <name>UnitFeatures.ShockResistance</name>
+        <icon>p_resstun</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_shock>0.10</resistance_shock>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1002</id>
+        <name>UnitFeatures.ShockResistance</name>
+        <icon>p_resstun</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_shock>0.10</resistance_shock>
+        <required_perc>1001</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1003</id>
+        <name>UnitFeatures.ShockResistance</name>
+        <icon>p_resstun</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_shock>0.10</resistance_shock>
+        <required_perc>1002</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1004</id>
+        <name>UnitFeatures.ShockResistance</name>
+        <icon>p_resstun</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_shock>0.10</resistance_shock>
+        <required_perc>1003</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1101</id>
+        <name>UnitFeatures.BlindResistance</name>
+        <icon>p_resblind</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_blind>0.10</resistance_blind>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1102</id>
+        <name>UnitFeatures.BlindResistance</name>
+        <icon>p_resblind</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_blind>0.10</resistance_blind>
+        <required_perc>1101</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1103</id>
+        <name>UnitFeatures.BlindResistance</name>
+        <icon>p_resblind</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_blind>0.10</resistance_blind>
+        <required_perc>1102</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1104</id>
+        <name>UnitFeatures.BlindResistance</name>
+        <icon>p_resblind</icon>
+        <description></description>
+        <category>100</category>
+
+        <resistance_blind>0.10</resistance_blind>
+        <required_perc>1103</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>2701</id>
+        <name>UnitFeatures.Turtle</name>
+        <icon>p_turtle</icon>
+        <description>UnitFeatures.Turtle_d</description>
+        <category>100</category>
+
+        <required_level>6</required_level>
+        <required_perc>305</required_perc>
+
+        <feature_defense>2</feature_defense>
+        <feature_resist_ap_poison>-2</feature_resist_ap_poison>
+        <resistance_damage>0.03</resistance_damage>
+
+     </perc>
+
+     <perc>
+        <id>2801</id>
+        <name>UnitFeatures.Shelter</name>
+        <icon>p_shelter</icon>
+        <description>UnitFeatures.Shelter_d</description>
+        <category>100</category>
+
+        <required_level>12</required_level>
+        <required_perc>2701</required_perc>
+        <required_perc>310</required_perc>
+
+        <feature_defense>1</feature_defense>
+        <feature_resist_ap_poison>-1</feature_resist_ap_poison>
+        <resistance_damage>0.03</resistance_damage>
+
+    </perc>
+</group>

@@ -1,0 +1,147 @@
+<group>
+    <perc>
+        <id>1901</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1902</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1901</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1903</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1902</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1904</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1903</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1905</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1904</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1906</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1905</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1907</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1906</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>1908</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1907</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>1909</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1908</required_perc>
+        <required_level>15</required_level>
+    </perc>
+
+    <perc>
+        <id>1910</id>
+        <name>UnitFeatures.SniperRifleMastery</name>
+        <icon>p_snipermast</icon>
+        <description></description>
+        <category>70</category>
+
+        <skill_sniperrifle>2</skill_sniperrifle>
+        <required_perc>1909</required_perc>
+        <required_level>16</required_level>
+    </perc>
+
+    <perc>
+        <id>2401</id>
+        <name>UnitFeatures.SharpSighted</name>
+        <icon>p_sharpsigh</icon>
+        <description></description>
+        <category>70</category>
+
+        <viewradius>1</viewradius>
+
+        <required_level>18</required_level>
+        <required_perc>1910</required_perc>
+        <required_skill_sniperrifle>54</required_skill_sniperrifle>
+    </perc>
+
+    <perc>
+        <id>4101</id>
+        <name>UnitFeatures.Stargazer</name>
+        <icon>p_stargazer</icon>
+        <description>UnitFeatures.Stargazer_d</description>
+        <category>70</category>
+
+        <required_level>13</required_level>
+        <required_perc>1905</required_perc>
+            <required_skill_sniperrifle>34</required_skill_sniperrifle>
+        <feature_radius_optic>1</feature_radius_optic>
+    </perc>
+</group>

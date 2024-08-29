@@ -1,0 +1,71 @@
+<perc>
+    <id>20201</id>
+    <name>UnitFeatures.name_perc20201</name>
+    <description></description>
+    <implantant>1</implantant>
+    
+    <maxstuffweight>0</maxstuffweight>
+    <maxstuffcount>0</maxstuffcount>
+    <hp>50</hp>
+    <hpregeneration>1</hpregeneration>
+    <apcommon>0</apcommon>
+    <apmove>0</apmove>
+    <viewradius>0</viewradius>
+    <viewpower>0</viewpower>
+    <accuracy>0</accuracy>
+    <critical_chance>0</critical_chance>
+    <critical_power>0</critical_power>
+
+    <resistance_damage>0</resistance_damage>
+    <resistance_critical>0</resistance_critical>
+    <resistance_poison>0</resistance_poison>
+    <resistance_shock>0</resistance_shock>
+      <resistance_blind>0</resistance_blind>
+
+    <skill_melee>0</skill_melee>
+    <skill_pistol>0</skill_pistol>
+    <skill_shotgun>0</skill_shotgun>
+    <skill_submachinegun>0</skill_submachinegun>
+    <skill_assaultrifle>0</skill_assaultrifle>
+    <skill_sniperrifle>0</skill_sniperrifle>
+    <skill_grenade>0</skill_grenade>
+    <skill_rocketlauncher>0</skill_rocketlauncher>
+    <skill_heavygun>0</skill_heavygun>
+    <skill_energy>0</skill_energy>
+      <skill_trap>0</skill_trap>
+    <skill_medikit>0</skill_medikit>
+
+
+<!--     <required_perc>1</required_perc> -->
+
+    <required_maxstuffweight>0</required_maxstuffweight>
+    <required_maxstuffcount>0</required_maxstuffcount>
+    <required_hp>0</required_hp>
+    <required_hpregeneration>0</required_hpregeneration>
+    <required_apcommon>0</required_apcommon>
+    <required_apmove>0</required_apmove>
+    <required_viewradius>0</required_viewradius>
+    <required_viewpower>0</required_viewpower>
+    <required_accuracy>0</required_accuracy>
+    <required_critical_chance>0</required_critical_chance>
+    <required_critical_power>0</required_critical_power>
+
+    <required_resistance_damage>0</required_resistance_damage>
+    <required_resistance_critical>0</required_resistance_critical>
+    <required_resistance_poison>0</required_resistance_poison>
+    <required_resistance_shock>0</required_resistance_shock>
+      <required_resistance_blind>0</required_resistance_blind>
+
+    <required_skill_melee>-1</required_skill_melee>
+    <required_skill_pistol>-1</required_skill_pistol>
+    <required_skill_shotgun>-1</required_skill_shotgun>
+    <required_skill_submachinegun>-1</required_skill_submachinegun>
+    <required_skill_assaultrifle>-1</required_skill_assaultrifle>
+    <required_skill_sniperrifle>-1</required_skill_sniperrifle>
+    <required_skill_grenade>-1</required_skill_grenade>
+    <required_skill_rocketlauncher>-1</required_skill_rocketlauncher>
+    <required_skill_heavygun>-1</required_skill_heavygun>
+    <required_skill_energy>-1</required_skill_energy>
+      <required_skill_trap>-1</required_skill_trap>
+    <required_skill_medikit>-1</required_skill_medikit>
+</perc>

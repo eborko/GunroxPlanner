@@ -1,0 +1,514 @@
+<group>
+    <perc>
+        <id>1201</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1202</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1201</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1203</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1202</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1204</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1203</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1205</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1204</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1206</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1205</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1207</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1206</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1208</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1207</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1209</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1208</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1210</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1209</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1211</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1210</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1212</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1211</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1213</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1212</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1214</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1213</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1215</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1214</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1216</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1215</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1217</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1216</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1218</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1217</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1219</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1218</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1220</id>
+        <name>UnitFeatures.Luck</name>
+        <icon>p_luck</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.01</critical_chance>
+        <required_perc>1219</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+
+
+
+    <perc>
+        <id>1301</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1302</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1301</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1303</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1302</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1304</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1303</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1305</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1304</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1306</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1305</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1307</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1306</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1308</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1307</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1309</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1308</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1310</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1309</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1311</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1310</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1312</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1311</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1313</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1312</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1314</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1313</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1315</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1314</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1316</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1315</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1317</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1316</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1318</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1317</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1319</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1318</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1320</id>
+        <name>UnitFeatures.HeavyHand</name>
+        <icon>p_hvhand</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_power>0.05</critical_power>
+        <required_perc>1319</required_perc>
+        <required_level>4</required_level>
+    </perc>
+
+
+
+    <perc>
+        <id>3001</id>
+        <name>UnitFeatures.RightHandOfDoom</name>
+        <icon>p_rhdoom</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.02</critical_chance>
+        <critical_power>0.2</critical_power>
+        <required_level>21</required_level>
+        <required_perc>1210</required_perc>
+        <required_perc>1310</required_perc>
+    </perc>
+
+    <perc>
+        <id>3101</id>
+        <name>UnitFeatures.LeftHandOfDoom</name>
+        <icon>p_lhdoom</icon>
+        <description></description>
+        <category>110</category>
+
+        <critical_chance>0.02</critical_chance>
+        <critical_power>0.2</critical_power>
+        <required_level>42</required_level>
+        <required_perc>1220</required_perc>
+        <required_perc>1320</required_perc>
+        <required_perc>3001</required_perc>
+    </perc>
+
+</group>

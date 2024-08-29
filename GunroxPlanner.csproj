@@ -9,6 +9,20 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Resources\Images\PercImages\010_IncreasedHitpoints\" />
+      <Folder Include="Resources\Images\PercImages\020_Melee\" />
+      <Folder Include="Resources\Images\PercImages\030_Pistol\" />
+      <Folder Include="Resources\Images\PercImages\040_Shotgun\" />
+      <Folder Include="Resources\Images\PercImages\050_SubmachineGun\" />
+      <Folder Include="Resources\Images\PercImages\060_AssaultRifle\" />
+      <Folder Include="Resources\Images\PercImages\070_SniperRifle\" />
+      <Folder Include="Resources\Images\PercImages\080_Grenade\" />
+      <Folder Include="Resources\Images\PercImages\090_Trap\" />
+      <Folder Include="Resources\Images\PercImages\096_RocketLauncher\" />
+      <Folder Include="Resources\Images\PercImages\098_HeavyMachine\" />
+      <Folder Include="Resources\Images\PercImages\100_Resistences\" />
+      <Folder Include="Resources\Images\PercImages\110_Doom\" />
+      <Folder Include="Resources\Images\PercImages\120_BagWeight\" />
       <Folder Include="Resources\Images\SkillImages\" />
     </ItemGroup>
 

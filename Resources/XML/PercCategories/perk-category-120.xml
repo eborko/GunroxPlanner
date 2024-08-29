@@ -1,0 +1,148 @@
+<group>
+    <perc>
+        <id>401</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>402</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>401</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>403</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>402</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>404</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>403</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>405</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>404</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>406</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>405</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>407</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>406</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>408</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>407</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>409</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>408</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>410</id>
+        <name>UnitFeatures.StrongBack</name>
+        <icon>p_strongb</icon>
+        <description></description>
+        <category>120</category>
+
+        <maxstuffweight>10</maxstuffweight>
+        <required_perc>409</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>501</id>
+        <name>UnitFeatures.Mule</name>
+        <icon>p_mule</icon>
+        <description></description>
+        <category>120</category>
+
+            <maxstuffcount>2</maxstuffcount>
+        <maxstuffweight>20</maxstuffweight>
+
+        <required_perc>410</required_perc>
+        <required_perc>4201</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>4201</id>
+        <name>UnitFeatures.Packer</name>
+        <icon>p_packer</icon>
+        <description></description>
+        <category>120</category>
+
+            <maxstuffcount>2</maxstuffcount>
+
+        <required_level>6</required_level>
+        <required_perc>405</required_perc>
+    </perc>
+</group>

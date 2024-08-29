@@ -1,0 +1,161 @@
+<group>
+    <perc>
+        <id>3701</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>3702</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3701</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>3703</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3702</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>3704</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3703</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>3705</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3704</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>3706</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3705</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>3707</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3706</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>3708</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3707</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>3709</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3708</required_perc>
+        <required_level>15</required_level>
+    </perc>
+
+    <perc>
+        <id>3710</id>
+        <name>UnitFeatures.FirstAid</name>
+        <icon>p_firstaid</icon>
+        <description></description>
+        <category>15</category>
+
+        <skill_medikit>2</skill_medikit>
+
+        <required_perc>3709</required_perc>
+        <required_level>16</required_level>
+    </perc>
+
+    <!-- Doctor -->
+
+    <perc>
+        <id>3801</id>
+        <name>UnitFeatures.Doctor</name>
+        <icon>p_doctor</icon>
+        <description>UnitFeatures.Doctor_d</description>
+        <category>15</category>
+
+        <required_perc>3705</required_perc>
+            <required_skill_medikit>32</required_skill_medikit>
+        <required_level>12</required_level>
+
+        <feature_cure_other>1</feature_cure_other>
+    </perc>
+
+    <perc>
+        <id>5101</id>
+        <name>UnitFeatures.SelfTreatment</name>
+        <icon>p_selfthreat</icon>
+        <description></description>
+        <category>15</category>
+
+        <hp>20</hp>
+        <hpregeneration>2</hpregeneration>
+
+        <required_perc>3710</required_perc>
+            <required_skill_medikit>52</required_skill_medikit>
+        <required_level>17</required_level>
+    </perc>
+</group>

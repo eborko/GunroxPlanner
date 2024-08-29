@@ -1,0 +1,151 @@
+<group>
+    <perc>
+        <id>1701</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_level>5</required_level>
+    </perc>
+
+    <perc>
+        <id>1702</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1701</required_perc>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>1703</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1702</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1704</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1703</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1705</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1704</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1706</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1705</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1707</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1706</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1708</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1707</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1709</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1708</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>1710</id>
+        <name>UnitFeatures.SubmachineGunMastery</name>
+        <icon>p_submast</icon>
+        <description></description>
+        <category>50</category>
+
+        <skill_submachinegun>2</skill_submachinegun>
+        <required_perc>1709</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>2101</id>
+        <name>UnitFeatures.MoreAction</name>
+        <icon>p_moreact</icon>
+        <description></description>
+        <category>50</category>
+
+        <apcommon>1</apcommon>
+        <maxstuffweight>-20</maxstuffweight>
+
+        <required_level>11</required_level>
+        <required_perc>1705</required_perc>
+            <required_skill_submachinegun>30</required_skill_submachinegun>
+    </perc>
+
+    <perc>
+        <id>2301</id>
+        <name>UnitFeatures.EvenMoreAction</name>
+        <icon>p_evmoreact</icon>
+        <description></description>
+        <category>50</category>
+
+        <apcommon>1</apcommon>
+        <maxstuffweight>-20</maxstuffweight>
+
+        <required_level>16</required_level>
+        <required_perc>1710</required_perc>
+        <required_perc>2101</required_perc>
+            <required_skill_submachinegun>50</required_skill_submachinegun>
+    </perc>
+</group>

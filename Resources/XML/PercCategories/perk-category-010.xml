@@ -1,0 +1,679 @@
+<group>
+    <!-- increase HP -->
+    <perc>
+        <id>1</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>2</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>1</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>3</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>2</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>4</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>3</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>5</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>4</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>6</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>5</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>7</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>6</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>8</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>7</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>9</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>8</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>10</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>9</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>11</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>10</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>12</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>11</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>13</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>12</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>14</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>13</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>15</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>14</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>16</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>15</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>17</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>16</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>18</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>17</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>19</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>18</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>20</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>19</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>21</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>20</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>22</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>21</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>23</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>22</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>24</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>23</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>25</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>24</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>26</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>25</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>27</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>26</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>28</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>27</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>29</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>28</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>30</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>29</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>31</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>30</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>32</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>31</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>33</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>32</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>34</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>33</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>35</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>34</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>36</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>35</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>37</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>36</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>38</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>37</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>39</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>38</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>40</id>
+        <name>UnitFeatures.IncreasedHitpoints</name>
+        <icon>p_inchp</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>7</hp>
+        <required_perc>39</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <!-- regeneration -->
+
+    <perc>
+        <id>101</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>102</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>101</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>103</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>102</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>104</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>103</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>105</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>104</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>106</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>105</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>107</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>106</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>108</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>107</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>109</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>108</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <perc>
+        <id>110</id>
+        <name>UnitFeatures.Regeneration</name>
+        <icon>p_regen</icon>
+        <description></description>
+        <category>10</category>
+
+        <hpregeneration>1</hpregeneration>
+        <required_perc>109</required_perc>
+        <required_level>1</required_level>
+    </perc>
+
+    <!-- Health -->
+    <perc>
+        <id>3201</id>
+        <name>UnitFeatures.Health</name>
+        <icon>p_health</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>20</hp>
+        <hpregeneration>2</hpregeneration>
+
+        <required_level>11</required_level>
+        <required_perc>5</required_perc>
+        <required_perc>105</required_perc>
+    </perc>
+
+    <perc>
+        <id>3301</id>
+        <name>UnitFeatures.Megahealth</name>
+        <icon>p_mghealth</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>30</hp>
+        <hpregeneration>3</hpregeneration>
+
+        <required_level>21</required_level>
+        <required_perc>10</required_perc>
+        <required_perc>110</required_perc>
+    </perc>
+
+    <perc>
+        <id>3401</id>
+        <name>UnitFeatures.Superhealth</name>
+        <icon>p_sphealth</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>40</hp>
+        <hpregeneration>5</hpregeneration>
+
+        <required_level>31</required_level>
+        <required_perc>20</required_perc>
+        <required_perc>110</required_perc>
+    </perc>
+
+    <perc>
+        <id>3501</id>
+        <name>UnitFeatures.Survivor</name>
+        <icon>p_surv</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>50</hp>
+        <hpregeneration>10</hpregeneration>
+
+        <required_level>41</required_level>
+        <required_perc>30</required_perc>
+        <required_perc>110</required_perc>
+    </perc>
+
+    <perc>
+        <id>3601</id>
+        <name>UnitFeatures.UltimateSurvivor</name>
+        <icon>p_ultsurv</icon>
+        <description></description>
+        <category>10</category>
+
+        <hp>150</hp>
+        <hpregeneration>15</hpregeneration>
+
+        <required_level>50</required_level>
+        <required_perc>40</required_perc>
+        <required_perc>110</required_perc>
+    </perc>
+
+</group>

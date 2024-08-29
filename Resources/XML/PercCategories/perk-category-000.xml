@@ -1,0 +1,24 @@
+<group>
+  <perc>
+      <id>2901</id>
+      <name>UnitFeatures.Insightful</name>
+      <icon>p_insight</icon>
+      <description>UnitFeatures.Insightful_d</description>
+      <category>0</category>
+
+      <required_level>10</required_level>
+      <feature_insight>1</feature_insight>
+  </perc>
+
+  <perc>
+      <id>2902</id>
+      <name>UnitFeatures.Insightful2</name>
+      <icon>p_insight2</icon>
+      <description>UnitFeatures.Insightful2_d</description>
+      <category>0</category>
+
+      <required_level>15</required_level>
+      <required_perc>2901</required_perc>
+      <feature_insight>1</feature_insight>
+  </perc>
+</group>

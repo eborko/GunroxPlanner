@@ -1,0 +1,156 @@
+<group>
+
+    <perc>
+        <id>701</id>
+        <name>UnitFeatures.DrMinigun</name>
+        <icon>p_drminigun</icon>
+        <description>UnitFeatures.DrMinigun_d</description>
+        <category>98</category>
+
+        <unlockskill>heavygun</unlockskill>
+            <skill_heavygun>1</skill_heavygun>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>710</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+
+        <required_perc>701</required_perc>
+        <required_level>25</required_level>
+    </perc>
+    <perc>
+        <id>711</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>710</required_perc>
+        <required_level>26</required_level>
+    </perc>
+    <perc>
+        <id>712</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>711</required_perc>
+        <required_level>27</required_level>
+    </perc>
+    <perc>
+        <id>713</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>712</required_perc>
+        <required_level>28</required_level>
+    </perc>
+    <perc>
+        <id>714</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>713</required_perc>
+        <required_level>29</required_level>
+    </perc>
+    <perc>
+        <id>715</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>714</required_perc>
+        <required_level>30</required_level>
+    </perc>
+    <perc>
+        <id>716</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>715</required_perc>
+        <required_level>31</required_level>
+    </perc>
+    <perc>
+        <id>717</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>716</required_perc>
+        <required_level>32</required_level>
+    </perc>
+    <perc>
+        <id>718</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>717</required_perc>
+        <required_level>33</required_level>
+    </perc>
+    <perc>
+        <id>719</id>
+        <name>UnitFeatures.MinigunMastery</name>
+        <icon>p_mgmastery</icon>
+        <description></description>
+        <category>98</category>
+
+            <skill_heavygun>2</skill_heavygun>
+        <required_perc>718</required_perc>
+        <required_level>34</required_level>
+    </perc>
+
+
+    <perc>
+        <id>790</id>
+        <name>UnitFeatures.MGBulletRush</name>
+        <icon>p_mgbullet</icon>
+        <description>UnitFeatures.MGBulletRush_d</description>
+        <category>98</category>
+
+        <feature_minigun_accuracy>1</feature_minigun_accuracy>
+
+        <required_perc>714</required_perc>
+        <required_skill_heavygun>60</required_skill_heavygun>
+        <required_level>25</required_level>
+    </perc>
+
+    <perc>
+        <id>791</id>
+        <name>UnitFeatures.MGTerminator</name>
+        <icon>p_mgterminator</icon>
+        <description>UnitFeatures.MGTerminator_d</description>
+        <category>98</category>
+
+        <feature_minigun_critical>5</feature_minigun_critical>
+
+        <required_perc>719</required_perc>
+        <required_skill_heavygun>80</required_skill_heavygun>
+        <required_level>35</required_level>
+    </perc>
+
+</group>

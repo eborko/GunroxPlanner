@@ -1,0 +1,149 @@
+<group>
+    <perc>
+        <id>2001</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>2002</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2001</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>2003</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2002</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>2004</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2003</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>2005</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2004</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>2006</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2005</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>2007</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2006</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>2008</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2007</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>2009</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2008</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>2010</id>
+        <name>UnitFeatures.Grenadier</name>
+        <icon>p_grenadier</icon>
+        <description></description>
+        <category>80</category>
+
+        <skill_grenade>2</skill_grenade>
+        <required_perc>2009</required_perc>
+        <required_level>15</required_level>
+    </perc>
+
+    <perc>
+        <id>4601</id>
+        <name>UnitFeatures.Kamikaze</name>
+        <icon>p_kamikaze</icon>
+        <description>UnitFeatures.Kamikaze_d</description>
+        <category>80</category>
+
+        <required_level>11</required_level>
+        <required_perc>2005</required_perc>
+        <required_skill_grenade>30</required_skill_grenade>
+
+        <feature_grenade_autouse>1</feature_grenade_autouse>
+    </perc>
+
+    <perc>
+        <id>4701</id>
+        <name>UnitFeatures.GrenadeDexterity</name>
+        <icon>p_grendext</icon>
+        <description>UnitFeatures.GrenadeDexterity_d</description>
+        <category>80</category>
+
+        <required_level>16</required_level>
+        <required_perc>2010</required_perc>
+        <required_skill_grenade>50</required_skill_grenade>
+
+        <maxstuffweight>-10</maxstuffweight>
+        <feature_grenade_inventory>1</feature_grenade_inventory>
+    </perc>
+</group>

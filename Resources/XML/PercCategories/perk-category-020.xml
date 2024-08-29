@@ -1,0 +1,149 @@
+<group>
+    <perc>
+        <id>1401</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_level>4</required_level>
+    </perc>
+
+    <perc>
+        <id>1402</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1401</required_perc>
+        <required_level>5</required_level>
+    </perc>
+
+    <perc>
+        <id>1403</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1402</required_perc>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>1404</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1403</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1405</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1404</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1406</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1405</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1407</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1406</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1408</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1407</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1409</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1408</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1410</id>
+        <name>UnitFeatures.Bruiser</name>
+        <icon>p_bruiser</icon>
+        <description></description>
+        <category>20</category>
+
+        <skill_melee>2</skill_melee>
+        <required_perc>1409</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>4301</id>
+        <name>UnitFeatures.KnockOut</name>
+        <icon>p_knockout</icon>
+        <description>UnitFeatures.KnockOut_d</description>
+        <category>20</category>
+
+        <required_level>9</required_level>
+        <required_perc>1405</required_perc>
+        <required_skill_melee>26</required_skill_melee>
+
+        <feature_knockout>1</feature_knockout>
+    </perc>
+
+    <perc>
+        <id>4401</id>
+        <name>UnitFeatures.Endurance</name>
+        <icon>p_endurance</icon>
+        <description></description>
+        <category>20</category>
+
+        <apcommon>-1</apcommon>
+        <apmove>3</apmove>
+
+        <required_level>14</required_level>
+        <required_perc>1410</required_perc>
+        <required_skill_melee>46</required_skill_melee>
+    </perc>
+</group>

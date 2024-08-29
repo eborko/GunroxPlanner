@@ -1,0 +1,150 @@
+<group>
+    <perc>
+        <id>1801</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>1802</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1801</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>1803</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1802</required_perc>
+        <required_level>8</required_level>
+    </perc>
+
+    <perc>
+        <id>1804</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1803</required_perc>
+        <required_level>9</required_level>
+    </perc>
+
+    <perc>
+        <id>1805</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1804</required_perc>
+        <required_level>10</required_level>
+    </perc>
+
+    <perc>
+        <id>1806</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1805</required_perc>
+        <required_level>11</required_level>
+    </perc>
+
+    <perc>
+        <id>1807</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1806</required_perc>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>1808</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1807</required_perc>
+        <required_level>13</required_level>
+    </perc>
+
+    <perc>
+        <id>1809</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1808</required_perc>
+        <required_level>14</required_level>
+    </perc>
+
+    <perc>
+        <id>1810</id>
+        <name>UnitFeatures.AssaultRifleMastery</name>
+        <icon>p_assmast</icon>
+        <description></description>
+        <category>60</category>
+
+        <skill_assaultrifle>2</skill_assaultrifle>
+        <required_perc>1809</required_perc>
+        <required_level>15</required_level>
+    </perc>
+
+    <perc>
+        <id>3901</id>
+        <name>UnitFeatures.Dieter</name>
+        <icon>p_dieter</icon>
+        <description></description>
+        <category>60</category>
+
+        <apmove>1</apmove>
+        <hp>-20</hp>
+
+        <required_perc>1805</required_perc>
+        <required_skill_assaultrifle>32</required_skill_assaultrifle>
+        <required_level>12</required_level>
+    </perc>
+
+    <perc>
+        <id>4501</id>
+        <name>UnitFeatures.KeenEye</name>
+        <icon>p_keeneye</icon>
+        <description></description>
+        <category>60</category>
+
+        <apcommon>-2</apcommon>
+        <viewradius>2</viewradius>
+
+        <required_level>17</required_level>
+        <required_perc>1810</required_perc>
+        <required_skill_assaultrifle>52</required_skill_assaultrifle>
+    </perc>
+</group>

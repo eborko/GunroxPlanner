@@ -1,0 +1,17 @@
+<group>
+    <!--perc>
+        <id>801</id>
+        <name>UnitFeatures.DrEnergetic</name>
+        <icon>p_drenerg</icon>
+        <description>UnitFeatures.DrEnergetic_d</description>
+        <category>95</category>
+
+        <unlockskill>energy</unlockskill>
+    		<skill_energy>1</skill_energy>
+
+        <required_perc>205</required_perc>
+        <required_perc>405</required_perc>
+        <required_level>40</required_level>
+    </perc-->
+
+</group>

@@ -1,0 +1,151 @@
+<group>
+    <perc>
+        <id>4801</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>6</required_level>
+    </perc>
+
+    <perc>
+        <id>4802</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_perc>4801</required_perc>
+        <required_level>7</required_level>
+    </perc>
+
+    <perc>
+        <id>4803</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>8</required_level>
+        <required_perc>4802</required_perc>
+    </perc>
+
+    <perc>
+        <id>4804</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>9</required_level>
+        <required_perc>4803</required_perc>
+    </perc>
+
+    <perc>
+        <id>4805</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>10</required_level>
+        <required_perc>4804</required_perc>
+    </perc>
+
+    <perc>
+        <id>4806</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>11</required_level>
+        <required_perc>4805</required_perc>
+    </perc>
+
+    <perc>
+        <id>4807</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>12</required_level>
+        <required_perc>4806</required_perc>
+    </perc>
+
+    <perc>
+        <id>4808</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>13</required_level>
+        <required_perc>4807</required_perc>
+    </perc>
+
+    <perc>
+        <id>4809</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>14</required_level>
+        <required_perc>4808</required_perc>
+    </perc>
+
+    <perc>
+        <id>4810</id>
+        <name>UnitFeatures.Miner</name>
+        <icon>p_miner</icon>
+        <description></description>
+        <category>90</category>
+
+            <skill_trap>2</skill_trap>
+        <required_level>15</required_level>
+        <required_perc>4809</required_perc>
+    </perc>
+
+    <perc>
+        <id>4901</id>
+        <name>UnitFeatures.Autoplant</name>
+        <icon>p_autoplant</icon>
+        <description>UnitFeatures.Autoplant_d</description>
+        <category>90</category>
+
+        <required_level>11</required_level>
+        <required_perc>4805</required_perc>
+        <required_skill_trap>30</required_skill_trap>
+
+        <feature_trap_autouse>1</feature_trap_autouse>
+        <feature_trap_ap>-1</feature_trap_ap>
+    </perc>
+
+    <perc>
+        <id>5001</id>
+        <name>UnitFeatures.Pyrotechnist</name>
+        <icon>p_pyro</icon>
+        <description>UnitFeatures.Pyrotechnist_d</description>
+        <category>90</category>
+
+        <required_level>16</required_level>
+        <required_perc>4810</required_perc>
+        <required_skill_trap>50</required_skill_trap>
+
+        <viewpower>10</viewpower>
+        <feature_trap_ap>-1</feature_trap_ap>
+        <!-- <feature_trap_activate_radius>1</feature_trap_activate_radius> -->
+    </perc>
+</group>

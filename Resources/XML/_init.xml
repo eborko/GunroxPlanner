@@ -1,0 +1,31 @@
+<perc>
+    <id>0</id>
+    <name></name>
+    <description></description>
+    
+    <maxstuffweight>50</maxstuffweight>
+    <maxstuffcount>12</maxstuffcount>
+    <hp>100</hp>
+    <hpregeneration>0</hpregeneration>
+    <apcommon>12</apcommon>
+    <apmove>0</apmove>
+    <viewradius>9</viewradius>
+    <viewpower>0</viewpower>
+    <accuracy>0</accuracy>
+    <critical_chance>0</critical_chance>
+    <critical_power>0</critical_power>
+
+    <resistance_damage>0</resistance_damage>
+    <resistance_critical>0</resistance_critical>
+    <resistance_poison>0</resistance_poison>
+    <resistance_shock>0</resistance_shock>
+      <resistance_blind>0</resistance_blind>
+
+    <skill_rocketlauncher>-1</skill_rocketlauncher>
+    <skill_heavygun>-1</skill_heavygun>
+    <skill_energy>-1</skill_energy>
+    
+    <skill_assaultrifle>0</skill_assaultrifle>
+    <feature_trap_disarm>1</feature_trap_disarm>
+
+</perc>
