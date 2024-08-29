@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Media;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,23 @@ namespace GunroxPlanner;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private SoundPlayer _soundPlayer = new SoundPlayer();
     public MainWindow()
     {
         InitializeComponent();
+        PlayMusic();
+    }
+
+    private void PlayMusic()
+    {
+        _soundPlayer.SoundLocation = new Uri("Resources/Music/menu.wav", UriKind.Relative).ToString();
+        _soundPlayer.PlayLooping();
+    }
+
+    protected override void OnClosed(EventArgs e)
+    {
+        _soundPlayer.Dispose();
+        base.OnClosed(e);
     }
 
     private void PlusMinusButton_OnMouseEnter(object sender, MouseEventArgs e)

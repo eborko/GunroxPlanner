@@ -61,4 +61,11 @@
       <Resource Include="Resources\Images\SkillImages\left_arrow_down.png" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Resources\Music\menu.wav" />
+      <Content Include="Resources\Music\menu.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

@@ -23,13 +23,15 @@
             <EventSetter Event="PreviewMouseLeftButtonDown" Handler="LArrow_OnMouseDown"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonUp" Handler="LArrow_OnMouseUp"></EventSetter>
         </Style>
-        
+
         <Style TargetType="Button" x:Key="RightArrow">
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <Image x:Name="RightArrowImage" Source="Resources/Images/SkillImages/right_arrow_normal.png"></Image>
+                            <Image x:Name="RightArrowImage"
+                                   Source="Resources/Images/SkillImages/right_arrow_normal.png">
+                            </Image>
                             <ContentPresenter></ContentPresenter>
                         </Grid>
                     </ControlTemplate>
@@ -40,7 +42,7 @@
             <EventSetter Event="PreviewMouseLeftButtonDown" Handler="RArrow_OnMouseDown"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonUp" Handler="RArrow_OnMouseUp"></EventSetter>
         </Style>
-        
+
         <Style TargetType="Button" x:Key="MinusButton">
             <Setter Property="Template">
                 <Setter.Value>
@@ -53,12 +55,12 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter"/>
+            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter" />
             <EventSetter Event="MouseLeave" Handler="PlusMinusButton_OnMouseLeave"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonDown" Handler="PlusMinusButton_OnMouseDown"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonUp" Handler="PlusMinusButton_OnMouseUp"></EventSetter>
         </Style>
-        
+
         <Style TargetType="Button" x:Key="PlusButton">
             <Setter Property="Template">
                 <Setter.Value>
@@ -71,112 +73,160 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter"/>
+            <EventSetter Event="MouseEnter" Handler="PlusMinusButton_OnMouseEnter" />
             <EventSetter Event="MouseLeave" Handler="PlusMinusButton_OnMouseLeave"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonDown" Handler="PlusMinusButton_OnMouseDown"></EventSetter>
             <EventSetter Event="PreviewMouseLeftButtonUp" Handler="PlusMinusButton_OnMouseUp"></EventSetter>
         </Style>
     </Window.Resources>
-    <StackPanel Background="#333">
-        <StackPanel Height="70" Orientation="Horizontal">
-            <Grid>
-                <Image Source="Resources/Images/SkillImages/star.png"></Image>
-                <Ellipse Width="25" Height="25" Fill="Black" Opacity="0.8"></Ellipse>
-                <TextBlock x:Name="TxtSkills" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold">250</TextBlock>
-            </Grid>
-            <TextBox Height="25" Width="30" Margin="0,0,5,0" TextAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16">50</TextBox>
-            <Button Style="{StaticResource LeftArrow}" Height="25" Width="20"></Button>
-            <Button Style="{StaticResource RightArrow}" Height="25" Width="20"></Button>
-            
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="50" FontWeight="Bold" Foreground="WhiteSmoke">Unit Skills:</TextBlock>
+    
+    
+    <DockPanel LastChildFill="False" Background="#333">
+        <Border DockPanel.Dock="Left" BorderBrush="#666" BorderThickness="5">
+        <StackPanel Width="260">
+            <StackPanel Height="70" Orientation="Horizontal">
+                <Grid>
+                    <Image Source="Resources/Images/SkillImages/star.png"></Image>
+                    <Ellipse Width="25" Height="25" Fill="Black" Opacity="0.8"></Ellipse>
+                    <TextBlock x:Name="TxtSkills" HorizontalAlignment="Center" VerticalAlignment="Center"
+                               Foreground="White" FontWeight="Bold">
+                        250
+                    </TextBlock>
+                </Grid>
+                <TextBox Height="25" Width="30" Margin="0,0,5,0" TextAlignment="Center"
+                         VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16">
+                    50
+                </TextBox>
+                <Button Style="{StaticResource LeftArrow}" Height="25" Width="20"></Button>
+                <Button Style="{StaticResource RightArrow}" Height="25" Width="20"></Button>
+
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="95" FontWeight="Bold"
+                           Foreground="WhiteSmoke">
+                    Unit Skills:
+                </TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/melee.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Melee:</TextBlock>
+                <TextBlock x:Name="TxtMelee" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusMelee" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusMelee" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/pistol.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Pistol:</TextBlock>
+                <TextBlock x:Name="TxtPistol" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusPistol" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusPistol" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/shoutgun.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Shotgun:</TextBlock>
+                <TextBlock x:Name="TxtShotgun" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusShotgun" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusShotgun" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/submachine_gun.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Submachine Gun:</TextBlock>
+                <TextBlock x:Name="TxtSubmachineGun" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusSubmachineGun" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusSubmachineGun" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/assault_rifle.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Assault Rifle:</TextBlock>
+                <TextBlock x:Name="TxtAssaultRifle" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusAssaultRifle" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusAssaultRifle" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/sniper.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Sniper:</TextBlock>
+                <TextBlock x:Name="TxtSniper" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusSniper" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusSniper" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/heavy_macine.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Heavy Machine:</TextBlock>
+                <TextBlock x:Name="TxtHeavyMachine" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusHeavyMachine" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusHeavyMachine" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/rocket_launcher.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Rocket Launcher:</TextBlock>
+                <TextBlock x:Name="TxtRocketLauncher" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusRocketLauncher" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusRocketLauncher" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/grenade.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Grenade:</TextBlock>
+                <TextBlock x:Name="TxtGrenade" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusGrenade" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusGrenade" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/trap.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Traps:</TextBlock>
+                <TextBlock x:Name="TxtTrap" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusTrap" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusTrap" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
+                <Image Source="Resources/Images/SkillImages/healing.png" Width="20"></Image>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Healing:</TextBlock>
+                <TextBlock x:Name="TxtHealing" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center"
+                           HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">
+                    0
+                </TextBlock>
+                <Button x:Name="BtnMinusHealing" Style="{StaticResource MinusButton}"></Button>
+                <Button x:Name="BtnPlusHealing" Style="{StaticResource PlusButton}"></Button>
+            </StackPanel>
         </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/melee.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Melee:</TextBlock>
-            <TextBlock x:Name="TxtMelee" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusMelee" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusMelee" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/pistol.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Pistol:</TextBlock>
-            <TextBlock x:Name="TxtPistol" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusPistol" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusPistol" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/shoutgun.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Shotgun:</TextBlock>
-            <TextBlock x:Name="TxtShotgun" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusShotgun" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusShotgun" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/submachine_gun.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Submachine Gun:</TextBlock>
-            <TextBlock x:Name="TxtSubmachineGun" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusSubmachineGun" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusSubmachineGun" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/assault_rifle.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Assault Rifle:</TextBlock>
-            <TextBlock x:Name="TxtAssaultRifle" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusAssaultRifle" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusAssaultRifle" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/sniper.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Sniper:</TextBlock>
-            <TextBlock x:Name="TxtSniper" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusSniper" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusSniper"  Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/heavy_macine.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Heavy Machine:</TextBlock>
-            <TextBlock x:Name="TxtHeavyMachine" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusHeavyMachine" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusHeavyMachine" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/rocket_launcher.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Rocket Launcher:</TextBlock>
-            <TextBlock x:Name="TxtRocketLauncher" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusRocketLauncher" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusRocketLauncher" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/grenade.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Grenade:</TextBlock>
-            <TextBlock x:Name="TxtGrenade" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusGrenade" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusGrenade" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/trap.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Traps:</TextBlock>
-            <TextBlock x:Name="TxtTrap" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusTrap" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusTrap" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Height="30" Margin="20, 2, 0, 2">
-            <Image Source="Resources/Images/SkillImages/healing.png" Width="20"></Image>
-            <TextBlock VerticalAlignment="Center" TextAlignment="Right" Width="100" Foreground="WhiteSmoke">Healing:</TextBlock>
-            <TextBlock x:Name="TxtHealing" Width="40" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontWeight="Bold">0</TextBlock>
-            <Button x:Name="BtnMinusHealing" Style="{StaticResource MinusButton}"></Button>
-            <Button x:Name="BtnPlusHealing" Style="{StaticResource PlusButton}"></Button>
-        </StackPanel>
-    </StackPanel>
+        </Border>
+    </DockPanel>
 </Window>
